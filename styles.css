@@ -1,0 +1,66 @@
+/* Seletor por elemento */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Seletor por ID */
+#name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Seletor por classe */
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Seletor por atributo */
+a[href^="mailto"] {
+    font-style: oblique;
+}
+
+/* Seletor por pseudo-classe */
+a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+/* Estilos adicionais */
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.email-link {
+    color: #0000FF;
+}
+
+.linkedin-link {
+    color: #0077B5;
+}
+
+.github-link {
+    color: #333;
+}
+
+.ods-image {
+    width: 200px;
+    height: auto;
+}
+
+/* Decoração de texto */
+#footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
